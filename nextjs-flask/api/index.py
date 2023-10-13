@@ -5,6 +5,9 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-@app.route("https://shiny-adventure-g77jv9qrxxxhvqxr-3000.app.github.dev/api/test")
+@app.route("/api/test")
 def test():
     return "<p>Hello, World!</p>"
+
+if __name__ == '__main__':
+    app.run(debug=True, port=3000)
