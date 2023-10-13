@@ -10,4 +10,4 @@ def test():
     return render_template("/nextjs-flask/app/test.html")
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+    app.run(debug=True, port=5238)

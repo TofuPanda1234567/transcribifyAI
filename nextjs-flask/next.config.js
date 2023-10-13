@@ -6,7 +6,7 @@ const nextConfig = {
         source: '/api/:path*',
         destination:
           process.env.NODE_ENV === 'development'
-            ? 'http://0.0.0.0:3000/api/:path*'
+            ? 'http://127.0.0.1:5238/api/:path*'
             : '/api/',
       },
     ]
