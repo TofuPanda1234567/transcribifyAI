@@ -5,6 +5,6 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-@app.route("nextjs-flask/api/test")
+@app.route("/test")
 def test():
     return "<p>Hello, World!</p>"
