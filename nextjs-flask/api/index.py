@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route("/api/test/")
 def test():
-    return render_template("/app/test/")
+    return render_template("../nextls-flask/app/test.html")
 
 if __name__ == '__main__':
     app.run(debug=True, port=3000)
