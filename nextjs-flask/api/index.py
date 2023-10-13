@@ -7,4 +7,4 @@ def hello_world():
 
 @app.route("/api/test")
 def test():
-    return render_template('test.html')
+    return "<p>Hello, World!</p>"
