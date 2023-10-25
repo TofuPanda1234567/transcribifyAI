@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-@app.route("/api/test/")
+@app.route("/test/")
 def test():
     return render_template("/workspaces/transcribifyAI/nextjs-flask/app/test.html")
 
